@@ -16,6 +16,12 @@ proxy arrives unauthenticated, so a private URL renders as a broken box.
 | `signature-mark-120.png` | Void `#050506` | 120px (1x fallback) |
 | `signature-mark-clear-240.png` | Transparent | 120px (2x master) |
 | `signature-mark-clear-120.png` | Transparent | 120px (1x fallback) |
+| `signature-mark-clear-trim-280.png` | Transparent, trimmed | 140x97 (2x master) |
+| `signature-mark-clear-trim-140.png` | Transparent, trimmed | 140x97 (1x fallback) |
+
+The `-trim-` files are cropped to the artwork with a small margin, so the mark
+fills its box on a light ground. The square transparent files leave the art in
+a centred band and read as undersized next to a block of text.
 
 ## URLs
 
